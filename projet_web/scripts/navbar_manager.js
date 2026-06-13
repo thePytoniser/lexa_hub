@@ -1,5 +1,5 @@
-const pages_names = ["hub", "contact","a"];
-const links_names = ["index","contact","a"]
+const pages_names = ["hub", "contact", "youtube"];
+const links_names = ["index","contact", "youtube"]
 
 let links = "";
 
@@ -9,7 +9,7 @@ for (let i = 0 ; i < pages_names.length; i++){
 
 function load_navbar(){
 
-    document.getElementById('navbar').innerHTML=links;
+    document.getElementById('navbar').innerHTML = links;
 }
 document.addEventListener("DOMContentLoaded", function () {
     load_navbar();
