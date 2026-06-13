@@ -1,0 +1,50 @@
+Main color : #9bb2ba
+
+complement : #baa39b
+
+Use shades for hover states and shadows, tints for highlights and backgrounds.
+
+Shades:
+
+    10% : #8ca0a7
+
+    20% : #7c8e95
+
+    30% : #6d7d82
+
+    40% : #5d6b70
+
+    50% : #4e595d
+
+    60% : #3e474a
+
+    70% : #2e3538
+
+    80% : #1f2425
+
+    90% : #0f1213
+
+    100% : #000000
+
+Tints:
+
+    10% : #a5bac1
+
+    20% : #afc1c8
+
+    30% : #b9c9cf
+
+    40% : #c3d1d6
+
+    50% : #cdd9dd
+
+    60% : #d7e0e3
+
+    70% : #e1e8ea
+
+    80% : #ebf0f1
+
+    90% : #f5f7f8
+
+    100% : #ffffff
+

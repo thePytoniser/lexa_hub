@@ -5,15 +5,15 @@ html{
 }
 
 body {
-    background: linear-gradient(-45deg, grey, #4d4848);
-    max-height: fit-content;
+    background: radial-gradient( #9bb2ba, #3e474a);
+    height: 100%;
     width: 100%;
     display: flex;
-    margin: 8px;
 }
 
 .left_bar{
-    background:linear-gradient(-45deg,#6d6d6d,#929292);
+    background-color: rgba(255, 0, 0, 0);  /*ne pas oublier de l'enlever*/
+    border-radius:20px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -23,11 +23,16 @@ body {
 }
 .left_bar button {
     border-radius: 25px;
-    background-color: #4d4848;
+    background-color: #7c8e95;
+    margin: 2px 0;
 }
 .content {
-
+    border-radius: 25px;
+    background-color: #7c8e95;
+    margin: 50px;
+    padding: 10px;
+    padding-left: 50px;
     width:100%;
-    height: max-content;
+    height: 100%;
 
 }
