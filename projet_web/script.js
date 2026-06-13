@@ -1,9 +1,10 @@
-const pages_names = ["huba", "contact"];
+const pages_names = ["hub", "contact",];
+const links_names = ["index","contact",]
 
 let links = "";
 
 for (let i = 0 ; i < pages_names.length; i++){
-    links +=`<button id='${pages_names[i]}'> ${pages_names[i]}</button>` + '<br>';
+    links +=`<button id='${pages_names[i]}'><a href="${links_names[i]}"> ${pages_names[i]}</a></button>` ;
 }
 
 function load_navbar(){

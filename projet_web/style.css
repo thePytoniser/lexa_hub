@@ -22,34 +22,44 @@ body {
 }
 
 .menu {
+    background-color: #9bb2ba31;
     float: left;
-    width: 125px;
-    display: block;
+    width: 135px;
+    display: grid;
+    padding:10px 0;
+    border-radius:20px ;
+    align-items: center;
+    align-content: center;
+    justify-content: stretch;
+    gap: 0.25rem;
 }
 
-.menu a,button {
-    border-color: #000000;
-    border-style: solid;
-    text-decoration: none;
+.menu button {
+
     background-color: #9bb2ba;
     border-radius: 20px;
-    margin-top: 7px;
+    margin: 0 10px;
     display: flex;
-    width: 100%;
+    width: 90%;
     height:30px;
-    color: #000000;
+
     align-items:center;
+    justify-self: center;
     justify-content: center;
+}
+.menu button a{
+        text-decoration: none;
+        color: #000000;
+        width: 100%;
 }
 
 .main {
-    background-color:  #9bb2ba;
+    background-color:  #9bb2ba31;
     border-radius: 10px;
     float: left;
-    width:75%;
-    height: 100%;
+    width:80%;
     padding: 20px;
-    margin: 10px;
+    margin: 50px;
 }
 
 .right {
@@ -71,6 +81,8 @@ footer {
 
 @media only screen and (max-width: 620px) {
     .menu, .main, .right {
-        width: 100%;
-    }
+        max-width: 90%;
+        width: 90% ;
+        margin: 10px;
+   }
 }
