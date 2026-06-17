@@ -171,3 +171,14 @@ footer {
 summary {
     font-size: 1.25rem;
 }
+
+/* relax */
+#video_relax {
+  position: fixed;
+  top: 27;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%,
+  width: 100%;
+}
