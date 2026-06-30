@@ -14,6 +14,7 @@ function displayTasks() {
 function addTask() {
   let taskInput = document.getElementById("task");
   let text = taskInput.value;
+
   if (text === "") {
     return;
   }
